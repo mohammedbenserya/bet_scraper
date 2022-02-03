@@ -446,7 +446,7 @@ def compare(data):
                 Unibet  : {}
                     '''.format(perf,match,player,str(winamax),str(betclic),str(unibet))
             
-                base_url = 'https://api.telegram.org/bot5029164355:AAFzg0voW4nMwyeDL4ictvNuGo4_rNPHA7k/sendMessage?chat_id=-1001630243175&text={}'.format(message)
+                base_url = 'https://api.telegram.org{}'.format(message)
                 requests.get(base_url)
            
                 
